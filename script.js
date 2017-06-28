@@ -8,9 +8,16 @@ var theDay = weekDays[now.getDay()];
 
 function setTime() {
   var now = new Date();
-  var clock = now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+  var clock = padZeros(now.getHours()) + ":" + padZeros(now.getMinutes()) + ":" + padZeros(now.getSeconds());
   time.innerHTML = clock;
 
+}
+
+function padZeros(num) {
+  if (num <10) {
+  return "0" +num;
+}
+return num;
 }
 
 day.innerHTML= theDay;
