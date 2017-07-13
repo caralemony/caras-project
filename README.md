@@ -1,6 +1,4 @@
-# caras-project
-## Introduction
-My personal one page site
-## ijbliergitrijbnogn
+# Caroline's Portfolio Page
 
-more ramblings more interesting content
+## Life is a Cabaret
+A brief journey through the history of Cabaret, and an introduction to the lively London scene!
