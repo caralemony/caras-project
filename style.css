@@ -1,7 +1,61 @@
-h1 {color: red;}
-h2 {color: white;}
-p {color: white;}
 body {
-  background-image: url("images/background.jpg");
-  background-size: 100%;
+  background-image: url("https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Html-512.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+h1 {font-family: 'Pacifico', cursive; color: black; font-size: 100px;
+text-align: center;
+text-shadow: 2px 2px #acadaf;}
+
+h2 {font-family: 'Roboto', sans-serif; color: black; font-size: 50px; text-shadow: 2px 2px 1px white;}
+
+p1 {font-family: 'Roboto', sans-serif; color: black; font-size: 30px; text-shadow: 2px 2px 1px white;}
+
+
+p2 {font-family: 'Roboto', sans-serif; color: black; font-size: 20px;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #acadaf;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    text-shadow: 2px 2px black;
+}
+
+
+li a:hover {
+    background-color: black;
+}
+.active {
+    background-color: #8a8b8c;
+}
+
+img {
+  float: right;
+  font-family: 'Pacifico', cursive;
+  font-size: 35px;
+  padding: 10px 5px;
+}
+
+p3 {
+  font-family: 'Roboto', sans-serif; color: black; font-size: 20px;
+  padding: 600px;
+
 }
