@@ -1,33 +1,65 @@
 body {
   margin: 0;
-  background-image: url(https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Html-512.png);
+  background-image: url("./images/codeicon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   }
 
-.menu {
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
+    display: inline-block;
+    position: relative;
     background-color: #acadaf;
-
-}
-
-.menu a {
-    float: left;
-    display: inline;
-    color: white;
-    padding: 20px 1px 1px 70px;
     font-family: 'Pacifico', cursive;
+    font-size: 45px;
     text-align: center;
-    font-size: 35px;
     text-shadow: 2px 2px black;
     text-decoration: none;
-
+  width: 100%;
+  position: fixed;
 }
 
 
-.menu a:hover {
-    background-color: black;
+.anchor {
+  padding-top: 100px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+
+.maintitle {
+  height: 100vh;
 }
 
 h1 {
@@ -35,6 +67,21 @@ h1 {
   font-size: 100px;
   text-align: center;
   text-shadow: 2px 2px #acadaf;
+  animation: bounceIn 1s;
+  }
+
+  @keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 
 h2 {
@@ -48,7 +95,7 @@ h2 {
 .container {
     background-color: rgba(231, 231, 231, 0.7);
     margin: 70px auto;
-    width: 1100px;
+    max-width: 1000px;
     border-radius: 20px;
        }
 
@@ -68,8 +115,6 @@ p1 {
      }
 
      img {
+       image: url("C:\Users\Caroline\Documents\GitHub\caras-project\images\giticon.png");
        float: right;
-       font-family: 'Pacifico', cursive;
-       font-size: 35px;
-       padding: 10px 5px;
-     }
+           }
